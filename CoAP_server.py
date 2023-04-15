@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-
-"""This is a usage example of aiocoap that demonstrates how to implement a
-simple server. See the "Usage Examples" section in the aiocoap documentation
-for some more information."""
-
 import os
 import datetime
 import logging
@@ -18,7 +12,7 @@ with open("encrypted_fingerprint.txt", "rb") as key_file:
     encrypted_data = str(encrypted_data)
 
         
-class HelloWorldResource(resource.Resource):
+class FingerResource(resource.Resource):
     """Example resource which supports the GET method. It uses asyncio.sleep to
     simulate a long-running operation, and thus forces the protocol to send
     empty ACK first. """
@@ -43,7 +37,7 @@ async def main():
 
     root.add_resource(['.well-known', 'core'],
             resource.WKCResource(root.get_resources_as_linkheader))
-    root.add_resource(['helloWorld'], HelloWorldResource())
+    root.add_resource(['finger'], FingerResource())
 
     await aiocoap.Context.create_server_context(root, bind=("149.162.131.101", 5683))
 
