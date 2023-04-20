@@ -12,7 +12,7 @@ Hello! Our project is a program that encrypts and decrypts a user's fingerprint 
 
 
 
-## Demos 📷
+## Demo 📷
 ![Encryption/Decryption](assets/images/demo1.png)
 
 Team members:
