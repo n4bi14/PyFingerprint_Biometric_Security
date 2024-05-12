@@ -58,20 +58,6 @@ Given additional time, the following improvements and extensions could be explor
 - Aiocoap - Python CoAP library: [https://github.com/chrysn/aiocoap](https://github.com/chrysn/aiocoap)
 - Fingerprint mold: [https://www.youtube.com/watch?v=bp-MrrAmprA&ab_channel=JLaservideo](https://www.youtube.com/watch?v=bp-MrrAmprA&ab_channel=JLaservideo)
 
-
-
-## Demo 📷
-![Encryption/Decryption](assets/images/demo1.png)
-
-Team members:
-Simeon Dunn
-Abdou Sidiya
-Nabila Abdoulkadri
-Karen Bonilla
-
-
-
-
 ----
 ## Teammates 💪
 <a href="https://github.com/simedunn/PyFingerprint_Biometric_Security/graphs/contributors">
